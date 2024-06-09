@@ -15,4 +15,4 @@ jobs:
               with:
                   repo-token: ${{ secrets.TOKEN }}
                   teams: SRTP
-                  teamIsPullRequestReviewer: True
+                  teamIsPullRequestReviewer: true
