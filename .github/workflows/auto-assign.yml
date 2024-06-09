@@ -1,17 +1,16 @@
 name: Auto Assign
 on:
-  pull_request:
-    types: [opened, reopened]
+    pull_request:
+        types: [opened, edited, synchronize, reopened]
 jobs:
-  run:
+  auto-assign:
     runs-on: ubuntu-latest
     permissions:
       issues: write
       pull-requests: write
     steps:
-    - name: 'Auto-assign PR'
-      uses: pozil/auto-assign-issue@v1
-      with:
+      - name: 'Auto-assign PR'
+        uses: kentaro-m/auto-assign-action@v2.0.0
+        with:
           repo-token: ${{ secrets.TOKEN }}
-          teams: srtp
-          numOfAssignee: 1
+          teams: SRTP
