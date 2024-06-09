@@ -13,5 +13,5 @@ jobs:
       uses: pozil/auto-assign-issue@v1
       with:
           repo-token: ${{ secrets.TOKEN }}
-          teams: SRTP-project/srtp
+          teams: srtp
           numOfAssignee: 1
