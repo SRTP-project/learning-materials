@@ -1,9 +1,7 @@
 name: Auto Assign
 on:
-  issues:
-    types: [opened]
   pull_request:
-    types: [opened]
+    types: [opened, reopened]
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -11,9 +9,9 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - name: 'Auto-assign issue'
+    - name: 'Auto-assign PR'
       uses: pozil/auto-assign-issue@v1
       with:
           repo-token: ${{ secrets.TOKEN }}
-          assignees: SRTP-project/srtp
+          teams: SRTP-project/srtp
           numOfAssignee: 1
