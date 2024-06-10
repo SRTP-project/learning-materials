@@ -1,1 +1,1 @@
-This is a test.
+- 基于大语言模型知识问答应用落地实践 – 知识库构建（上）https://aws.amazon.com/cn/blogs/china/practice-of-knowledge-question-answering-application-based-on-llm-knowledge-base-construction-part-1/
