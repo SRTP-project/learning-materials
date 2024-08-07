@@ -4,7 +4,7 @@ os.environ["QIANFAN_AK"] = ""
 os.environ["QIANFAN_SK"] = ""
 
 # os.environ["LANGCHAIN_TRACING_V2"] = "true"
-# os.environ["LANGCHAIN_API_KEY"] = "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"
+# os.environ["LANGCHAIN_API_KEY"] = ""
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import QianfanEmbeddingsEndpoint
 # db = FAISS.from_documents(documents,QianfanEmbeddingsEndpoint())
