@@ -1,7 +1,7 @@
 import bs4
 import os
-os.environ["QIANFAN_AK"] = "WiVmBhp2DBVOnCfHCcWDwApu"
-os.environ["QIANFAN_SK"] = "lTZj0RJfNvQXoGVBPzXtJmhnS5BYRsJR"
+os.environ["QIANFAN_AK"] = ""
+os.environ["QIANFAN_SK"] = ""
 from langchain_community.embeddings import QianfanEmbeddingsEndpoint
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import WebBaseLoader
