@@ -1,7 +1,7 @@
 import os
 import re
-os.environ["QIANFAN_AK"] = "WiVmBhp2DBVOnCfHCcWDwApu"
-os.environ["QIANFAN_SK"] = "lTZj0RJfNvQXoGVBPzXtJmhnS5BYRsJR"
+os.environ["QIANFAN_AK"] = ""
+os.environ["QIANFAN_SK"] = ""
 
 # os.environ["LANGCHAIN_TRACING_V2"] = "true"
 # os.environ["LANGCHAIN_API_KEY"] = "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"
